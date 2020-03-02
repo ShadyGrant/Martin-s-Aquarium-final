@@ -1,0 +1,81 @@
+body, button, input, select, textarea {
+    color: black;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+    text-align:center;
+}
+
+body {
+    background-color: #2fda7169;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.bordered {
+    border: 6px double black;
+    background-color: #5c56bd68;
+}
+.fishList {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;;
+}
+
+.fish__image {
+    width: 14.70rem;
+    height: 12rem;
+    margin: 5px;
+}
+.navigation {
+    margin: 1em;
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+}
+.navigation a {
+    float: left;
+    color:lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.tipList {
+    border: 6px double black;
+    flex-basis: 20%;
+    text-align: center;
+    font-size: larger;
+    max-width: 100%;
+}
+
+.tip {
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+
+
+    max-width: 100%;
+    font-size: larger;
+
+}
